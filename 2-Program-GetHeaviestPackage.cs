@@ -57,8 +57,6 @@ namespace codingpracticeevents
             if (result.First() < result[1])
             {
                 result = Reduce(result);
-
-
             }
 
             //Debug
@@ -68,7 +66,6 @@ namespace codingpracticeevents
             //}
 
             return result.FirstOrDefault();
-
         }
 
         public static List<int> Reduce(List<int> input)
@@ -77,8 +74,7 @@ namespace codingpracticeevents
             int p2 = 0;
             int index = 0;
             int sumWeights = 0;
-
-
+            
             for (var i = 0; i < input.Count - 1; i++)
             {
                 if (input[i] < input[i + 1])
