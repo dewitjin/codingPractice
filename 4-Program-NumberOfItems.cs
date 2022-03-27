@@ -35,6 +35,7 @@ namespace codingpracticeevents
 
         /*
           * Complete the 'NumbertOfItems' function below.
+          * Note: question params List<int> startIndices and List<int> endIndices, but I didn't used them to solve question.
           * By Dewi Tjin March 2022
         */
 
@@ -71,18 +72,16 @@ namespace codingpracticeevents
 
         public static List<int> LoadIndice(string input)
         {
-
             List<int> result = new List<int>();
 
             for (int i = 0; i < input.Length;)
             {
                 result.Add(++i);
             }
-
+            
             return result;
         }
     }
-
 }
 
 
