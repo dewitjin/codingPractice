@@ -21,9 +21,7 @@ namespace codingpracticeevents
             var endIndices = LoadIndice(input);
 
             var result = NumbertOfItems(input, startIndices, endIndices); //should return [2,3]
-
-            //Turn link to array for final output - output array to console
-
+            
             Console.WriteLine("[{0}]", string.Join(", ", result));
 
             //Debug
