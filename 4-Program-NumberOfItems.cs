@@ -33,7 +33,7 @@ namespace codingpracticeevents
 
         /*
           * Complete the 'NumbertOfItems' function below.
-          * Note: question params List<int> startIndices and List<int> endIndices, but I didn't used them to solve question.
+          * Note: question started with params List<int> startIndices and List<int> endIndices, but I didn't used them to solve question.
           * By Dewi Tjin March 2022
         */
 
@@ -60,7 +60,7 @@ namespace codingpracticeevents
                 }
                 else if (input[i] == pipe && isOpeningPipe == true)
                 {
-                    result.Add(starCount); //hit because the pipe is a closing pipe
+                    result.Add(starCount); //second pipe hit (closing pipe)
                 }
 
                 i++;//update to next char
