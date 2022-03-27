@@ -9,10 +9,12 @@ namespace codingpracticeevents
     internal class Program
     {
         /**
-        * This company would like to know how much inventory exists in their closed inventory compartments.  Given a string s consisting of items as "*" and closed compartments as an open and close "|", an array of starting indices startIndices and an array of ending indices endIndices, determine the number of items in closed compartments within the substring between the two indices, inclusive.
+        * This company has a set of items that need to be packed into two boxes.  Given an integer array of the item weights (arr) to be packed, divide the item weights into two subsets, A and B, for packing into the associated boxes, while respecting the following conditions.
         * 
-        * An item is represented as an asterisk ('*' ascii decimal 42)
-        * A compartment is represented as a pair of pipes that may or may not have items between them ('|' = ascii decimal 124).
+        * The intersection of A and B is null.
+        * The union A and B is equal to the original array.
+        * The number of elements in subset A is minimal.
+        * The sum of A's weights is greater than the sum of B's weights.
         */
         public static void Main(string[] args)
         {
